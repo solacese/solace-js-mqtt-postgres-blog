@@ -1,0 +1,25 @@
+{
+  "name": "mqtt-producer",
+  "version": "1.0.0",
+  "description": "bare bones MQTT producer",
+  "main": "index.js",
+  "author": "Andrew Roberts",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon --exec babel-node src/index.js"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.3",
+    "@babel/core": "^7.8.3",
+    "@babel/node": "^7.8.4",
+    "@babel/preset-env": "^7.8.3",
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "core-js": "^3.6.4",
+    "dotenv": "^8.2.0",
+    "immer": "^5.3.6",
+    "mqtt": "^3.0.0",
+    "regenerator-runtime": "^0.13.3"
+  }
+}
