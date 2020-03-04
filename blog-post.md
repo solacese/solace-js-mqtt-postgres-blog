@@ -289,4 +289,6 @@ From a separate terminal, start up the MQTT producer (`npm run start` from the m
 
 ## Conclusion
 
+If you made it this far, you now have a referenceable example of how to wire together Solace, JavaScript, MQTT, and Postgres. Knowing how to use these versatile tools together gives you a foundation that you can apply to a wide range of problem categories. Less worrying about what technologies to use, more worrying about building awesome products 😎
+
 I hope you found this post useful. For more information, visit [PubSub+ for Developers](https://www.solace.dev/). If you have any questions, post them to the [Solace Developer Community](https://solace.community/).
