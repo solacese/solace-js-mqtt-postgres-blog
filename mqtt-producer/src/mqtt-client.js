@@ -17,7 +17,7 @@ function MqttClient({ hostUrl, username, password }) {
         password: password
       });
       client.on("connect", function onConnAck(connAck) {
-        resolve(client);
+        resolve();
       });
       client.on("error", function onConnError(error) {
         reject(error);

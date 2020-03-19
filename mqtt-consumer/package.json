@@ -6,7 +6,8 @@
   "author": "Andrew Roberts",
   "license": "MIT",
   "scripts": {
-    "start": "nodemon --exec babel-node src/index.js"
+    "start": "nodemon --exec babel-node src/index.js",
+    "dev": "nodemon --watch src --exec babel-node src/index.js"
   },
   "devDependencies": {
     "@babel/cli": "^7.8.3",

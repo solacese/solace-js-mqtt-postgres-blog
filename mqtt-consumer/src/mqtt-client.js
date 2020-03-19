@@ -35,7 +35,7 @@ function MqttClient({ hostUrl, username, password }) {
         reject(error);
       });
       client.on("connect", function onConnAck() {
-        resolve(client);
+        resolve();
       });
     });
   }
